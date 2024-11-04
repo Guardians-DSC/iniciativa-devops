@@ -3,17 +3,24 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Iniciativa DevOps - Home">
-  <div class="flex flex-col gap-4">
-    <h1 class="text-2xl font-bold font-mono text-blue-400">
-      ~/Iniciativa-DevOps
-    </h1>
-    <p class="text-lg max-w-[80ch]">
-      Programa de incentivo e capacitação em DevOps e Infraestrutura ofertado
-      pelo Guardians UFCG
-    </p>
-    <a
-      class="w-fit py-2 px-3 border border-blue-400 rounded-tr-2xl rounded-bl-2xl text-blue-400 hover:bg-blue-400 hover:text-white"
-      href="/members">Conheça nossa equipe</a
-    >
+  <div class="flex flex-col justify-between items-center md:flex-row h-80">
+    <!-- Landing image -->
+    <div class="w-1/3 md:order-1">
+      <img src="/img/iniciativa-devops.svg" alt="guardians-redhat-logo" />
+    </div>
+    <!-- Landing text -->
+    <div class="flex flex-col gap-4 md:order-0">
+      <h1 class="text-2xl font-bold font-mono text-main">
+        ~/Iniciativa-DevOps
+      </h1>
+      <p class="text-lg max-w-[60ch]">
+        Programa de incentivo e capacitação em DevOps e Infraestrutura ofertado
+        pelo Guardians UFCG em parceiria com a RedHat Academy
+      </p>
+      <a
+        class="w-fit py-2 px-3 font-bold border-4 border-main rounded-tr-2xl rounded-bl-2xl text-main hover:bg-main hover:text-white"
+        href="/members">Conheça nossa equipe</a
+      >
+    </div>
   </div>
 </Layout>

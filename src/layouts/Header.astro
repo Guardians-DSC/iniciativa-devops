@@ -1,0 +1,44 @@
+---
+interface NavLinkProps {
+  label: string;
+  url: string;
+}
+
+const links: NavLinkProps[] = [
+  {
+    label: "home",
+    url: "/",
+  },
+  {
+    label: "membros",
+    url: "/members",
+  },
+];
+---
+
+<header class="max-w-[1000px] mx-auto justify-center px-4 py-2">
+  <div class="flex justify-between items-center py-2">
+    <!-- Header logo -->
+    <div class="flex items-center gap-4">
+      <img
+        src="/guardians.svg"
+        class="rounded-xl w-12 h-auto"
+        alt="guardians logo"
+      />
+      <span class="text-xl font-bold">Guardians UFCG</span>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+      <ul class="flex list-none gap-4 text-lg">
+        {
+          links.map((link) => (
+            <li class="hover:text-main">
+              <a href={link.url}>{link.label.toUpperCase()}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
