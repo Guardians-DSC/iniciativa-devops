@@ -1,37 +1,8 @@
 ---
-import clsx from "clsx";
+import Landing from "../layouts/Landing.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Iniciativa DevOps - Home">
-  <div
-    class={clsx(
-      "flex flex-col md:flex-row",
-      "justify-center md:items-center md:justify-between",
-      "min-h-screen gap-4"
-    )}
-  >
-    <!-- Landing image -->
-    <div class="w-full md:w-5/12 h-auto md:order-1">
-      <img
-        src="/img/iniciativa-devops.svg"
-        alt="guardians-redhat-logo"
-        class="w-full max-w-[350px] md:w-full mx-auto"
-      />
-    </div>
-    <!-- Landing text -->
-    <div class="flex flex-col gap-4 md:order-0">
-      <h1 class="text-3xl font-bold font-mono text-main">
-        ~/Iniciativa-DevOps
-      </h1>
-      <p class="text-xl max-w-[40ch]">
-        Programa de incentivo e capacitação em DevOps e Infraestrutura ofertado
-        pelo Guardians UFCG em parceiria com a RedHat Academy
-      </p>
-      <a
-        class="w-fit py-2 px-3 font-bold border-4 border-main rounded-tr-2xl rounded-bl-2xl text-main hover:bg-main hover:text-white"
-        href="/members">Conheça nossa equipe</a
-      >
-    </div>
-  </div>
+  <Landing />
 </Layout>

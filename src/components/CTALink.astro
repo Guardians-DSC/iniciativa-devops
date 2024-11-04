@@ -1,0 +1,19 @@
+---
+import clsx from "clsx";
+
+interface Props {
+  href: string;
+  label: string;
+}
+
+const { href, label } = Astro.props;
+---
+
+<a
+  class={clsx(
+    "w-fit py-2 px-3 font-bold",
+    "border-4 rounded-tr-2xl rounded-bl-2xl",
+    "border-main text-main hover:bg-main hover:text-white"
+  )}
+  href={href}>{label}</a
+>
