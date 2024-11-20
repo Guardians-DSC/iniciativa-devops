@@ -1,21 +1,20 @@
 ---
+import MemberList from "../components/member/MemberList.astro";
 import Layout from "../layouts/Layout.astro";
-import MemberCard from "../components/MemberCard.astro";
+
+import Leaders from "../../public/members/leaders.json";
+import ActiveMembers from "../../public/members/members.json";
 ---
 
 <Layout title="Iniciativa DevOps - Membros">
-  <h2 class="text-2xl">Staff</h2>
-  <div class="flex justify-around flex-wrap gap-4 mb-12">
-    <MemberCard imgSrc="/guardians.svg" name="Staff 1" role="Líder | Professor" />
-    <MemberCard imgSrc="/guardians.svg" name="Staff 2" role="Líder | Mestranda" />
-    <MemberCard imgSrc="/guardians.svg" name="Staff 3" role="Graduando | Monitor" />
-    <MemberCard imgSrc="/guardians.svg" name="Staff 4" role="Graduando | Monitor" />
-  </div>
-  <h2 class="text-2xl">Participantes 24.1</h2>
-  <div class="flex justify-around flex-wrap gap-4 mb-12">
-    <MemberCard imgSrc="/guardians.svg" name="Aluno 1" role="Graduando" />
-    <MemberCard imgSrc="/guardians.svg" name="Aluno 2" role="Graduando" />
-    <MemberCard imgSrc="/guardians.svg" name="Aluno 3" role="Graduando" />
-    <MemberCard imgSrc="/guardians.svg" name="Aluno 4" role="Graduando" />
-  </div>
+  <section class="flex flex-col mt-20">
+    <MemberList
+      title="Líderes e Monitores"
+      members={Leaders}
+    />
+    <MemberList
+      title="Membros"
+      members={ActiveMembers}
+    />
+  </section>
 </Layout>
