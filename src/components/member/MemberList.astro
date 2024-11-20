@@ -1,0 +1,25 @@
+---
+import MemberCard from "../MemberCard.astro";
+
+export type MemberProfile = {
+  imgSrc: string;
+  name: string;
+  role: string;
+  github?: string;
+  linkedin?: string;
+};
+
+interface Props {
+  title: string;
+  members: MemberProfile[];
+}
+
+const { title, members } = Astro.props;
+---
+
+<div class="py-6">
+  <h2 class="text-2xl font-bold font-mono text-main mb-4">{title}</h2>
+  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+    {members.map(item => <MemberCard {...item} />)}
+  </div>
+</div>
