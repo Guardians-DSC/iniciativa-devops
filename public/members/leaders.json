@@ -1,0 +1,22 @@
+[
+  {
+    "imgSrc": "https://github.com/thiagomanel.png",
+    "name": "Thiago Emmanuel",
+    "role": "Líder"
+  },
+  {
+    "imgSrc": "/profiles/narallynne-araujo.jpeg",
+    "name": "Narallynne Araujo",
+    "role": "Líder"
+  },
+  {
+    "imgSrc": "https://github.com/Francisco-xiq.png",
+    "name": "Francisco Pereira",
+    "role": "Monitor"
+  },
+  {
+    "imgSrc": "https://github.com/dougdomingos.png",
+    "name": "Douglas Domingos",
+    "role": "Monitor"
+  }
+]
