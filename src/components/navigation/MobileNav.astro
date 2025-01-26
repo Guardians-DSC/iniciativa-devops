@@ -1,0 +1,20 @@
+---
+import type { NavigationProps } from "./NavLink";
+
+const { links } = Astro.props as NavigationProps;
+---
+
+<nav class="fixed top-0 left-0 w-screen h-screen overflow-hidden bg-accent-950">
+  <ul class="flex flex-col justify-center items-center h-full list-none gap-3">
+    {
+      links.map(({ url, label }) => (
+        <li class="hover:text-accent-500">
+          <a href={url}>{label.toUpperCase()}</a>
+        </li>
+      ))
+    }
+  </ul>
+  <button class="absolute top-4 right-4 p-4 rounded-xl active:bg-primary-950">
+    X
+  </button>
+</nav>

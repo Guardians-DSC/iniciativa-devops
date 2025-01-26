@@ -1,12 +1,10 @@
 ---
 import Container from "../components/Container.astro";
+import DesktopNav from "../components/navigation/DesktopNav.astro";
+import MobileNav from "../components/navigation/MobileNav.astro";
+import type { NavLink } from "../components/navigation/NavLink";
 
-interface NavLink {
-  label: string;
-  url: string;
-}
-
-const links: NavLink[] = [
+const navigationLinks: NavLink[] = [
   {
     label: "home",
     url: "/iniciativa-devops",
@@ -32,17 +30,7 @@ const links: NavLink[] = [
       </div>
 
       <!-- Navbar -->
-      <nav class="hidden md:block">
-        <ul class="flex list-none gap-3">
-          {
-            links.map((link) => (
-              <li class="hover:text-accent-500">
-                <a href={link.url}>{link.label.toUpperCase()}</a>
-              </li>
-            ))
-          }
-        </ul>
-      </nav>
+      <DesktopNav links={navigationLinks} />
     </Fragment>
   </Container>
 </header>
