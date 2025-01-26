@@ -7,6 +7,6 @@ interface Props extends HTMLAttributes<"div"> {}
 const className = Astro.props.class;
 ---
 
-<div class={clsx("max-w-[1000px] mx-auto items-center", className)}>
+<div class={clsx("max-w-[1200px] mx-auto", className)}>
   <slot />
 </div>
