@@ -18,27 +18,25 @@ const links: NavLink[] = [
 ];
 ---
 
-<header class="absolute top-0 left-0 w-full px-4 py-2">
-  <Container
-    class="flex justify-between"
-  >
+<header class="absolute top-0 left-0 w-screen px-4 py-2 font-bold text-xl">
+  <Container class="flex justify-between items-center">
     <Fragment>
       <!-- Header logo -->
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-3">
         <img
           src="/iniciativa-devops/guardians.svg"
-          class="rounded-xl w-12 h-auto"
+          class="w-12 h-auto"
           alt="guardians logo"
         />
-        <span class="text-xl font-bold">Guardians UFCG</span>
+        <span>Guardians UFCG</span>
       </div>
 
       <!-- Navbar -->
-      <nav>
-        <ul class="flex list-none gap-4 text-lg">
+      <nav class="hidden md:block">
+        <ul class="flex list-none gap-3">
           {
             links.map((link) => (
-              <li class="hover:text-main">
+              <li class="hover:text-accent-500">
                 <a href={link.url}>{link.label.toUpperCase()}</a>
               </li>
             ))
