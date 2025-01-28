@@ -4,10 +4,11 @@ import Layout from "../layouts/Layout.astro";
 
 import Leaders from "../../public/members/leaders.json";
 import ActiveMembers from "../../public/members/members.json";
+import Container from "../components/layout/Container.astro";
 ---
 
 <Layout title="Iniciativa DevOps - Membros">
-  <section class="flex flex-col mt-20">
+  <Container class="flex flex-col py-4 gap-6">
     <MemberList
       title="Líderes e Monitores"
       members={Leaders}
@@ -16,5 +17,5 @@ import ActiveMembers from "../../public/members/members.json";
       title="Membros"
       members={ActiveMembers}
     />
-  </section>
+  </Container>
 </Layout>

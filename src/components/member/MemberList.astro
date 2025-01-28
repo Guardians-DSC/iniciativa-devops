@@ -17,9 +17,9 @@ interface Props {
 const { title, members } = Astro.props;
 ---
 
-<div class="py-6">
-  <h2 class="text-2xl font-bold font-mono text-main mb-4">{title}</h2>
-  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+<div class="mb-4">
+  <h2 class="text-xl md:text-3xl text-center font-bold mb-4">{title}</h2>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
     {members.map(item => <MemberCard {...item} />)}
   </div>
 </div>

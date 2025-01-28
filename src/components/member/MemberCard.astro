@@ -16,7 +16,7 @@ const member = Astro.props;
 <div class="flex flex-col text-center items-center">
   <img src={member.imgSrc} alt="member photo" class="w-32 h-32 object-cover rounded-full" />
   <p class="text-lg">{member.name}</p>
-  <span class="font-bold text-main">{member.role}</span>
+  <span class="font-bold text-accent-500">{member.role}</span>
   <ul class="w-full flex justify-around mt-2">
     {
       member.github && (
