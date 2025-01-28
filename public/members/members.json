@@ -1,12 +1,12 @@
 [
   {
     "imgSrc": "/iniciativa-devops/profiles/amauri-neto.jpg",
-    "name": "Amauri Neto",
+    "name": "Amauri Gomes de Oliveira Neto",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/andre-figueiredo-castro-cunha.jpg",
-    "name": "Andre Figueiredo Castro Cunha",
+    "name": "André de Figueiredo Castro Cunha",
     "role": "Membro Ativo"
   },
   {
@@ -21,12 +21,12 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/eli-pedro-cordeiro-silva.jpg",
-    "name": "Eli Pedro Cordeiro Silva",
+    "name": "Eli Pedro Cordeiro da Silva",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/erick-gomes.jpg",
-    "name": "Erick Gomes",
+    "name": "Erick Araken Vieira Gomes",
     "role": "Membro Ativo"
   },
   {
@@ -41,17 +41,12 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/fernando-gentil-pacheco.jpg",
-    "name": "Fernando Gentil Pacheco",
+    "name": "Fernando Gentil Pinheiro Pacheco",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/giulia-aragão.jpg",
-    "name": "Giulia Aragão",
-    "role": "Membro Ativo"
-  },
-  {
-    "imgSrc": "/iniciativa-devops/profiles/guilherme-alberto-dutra.jpg",
-    "name": "Guilherme Alberto Dutra",
+    "name": "Giulia Leticia de Mesquita Aragão",
     "role": "Membro Ativo"
   },
   {
@@ -66,22 +61,17 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/joao-pedro-martins.jpg",
-    "name": "João Pedro Martins",
+    "name": "João Pedro Martins Rodrigues",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/kemilli-nicole-santos-lima.jpg",
-    "name": "Kemilli Nicole Santos Lima",
+    "name": "Kemilli Nicole dos Santos Lima",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/larissa-monique-sousa.jpg",
-    "name": "Larissa Monique Sousa",
-    "role": "Membro Ativo"
-  },
-  {
-    "imgSrc": "/iniciativa-devops/profiles/leonardo-cavalcanti.jpeg",
-    "name": "Leonardo Cavalcanti",
+    "name": "Larissa Monique de Sousa Rodrigues",
     "role": "Membro Ativo"
   },
   {
@@ -91,37 +81,22 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/lucas-andre-monteiro.jpg",
-    "name": "Lucas André Monteiro",
-    "role": "Membro Ativo"
-  },
-  {
-    "imgSrc": "/iniciativa-devops/profiles/lucas-leones-santos.jpg",
-    "name": "Lucas Leones Santos",
+    "name": "Lucas André Monteiro Sousa",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/lucas-oliveira-ferreira-silva.jpeg",
-    "name": "Lucas Oliveira Ferreira Silva",
+    "name": "Lucas de Oliveira Ferreira da Silva",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/lucas-queiros-souza.jpg",
-    "name": "Lucas Queirós Souza",
-    "role": "Membro Ativo"
-  },
-  {
-    "imgSrc": "/iniciativa-devops/profiles/lukas-nascimento.jpg",
-    "name": "Lukas Nascimento",
-    "role": "Membro Ativo"
-  },
-  {
-    "imgSrc": "/iniciativa-devops/profiles/marcia-thais-revoredo.jpg",
-    "name": "Márcia Thaís Revoredo",
+    "name": "Lucas de Queirós Souza",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/maria-helena-barros-moraes.jpg",
-    "name": "Maria Helena Barros Moraes",
+    "name": "Maria Helena Barros",
     "role": "Membro Ativo"
   },
   {
@@ -131,12 +106,12 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/paulo-ricardo-nascimento.jpg",
-    "name": "Paulo Ricardo Nascimento",
+    "name": "Paulo Ricardo Pereira do Nascimento",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/raylla-camilly-pereira.jpg",
-    "name": "Raylla Camilly Pereira",
+    "name": "Raylla Camilly Pereira de Farias",
     "role": "Membro Ativo"
   },
   {
@@ -146,17 +121,17 @@
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/rute-pereira-silva.jpeg",
-    "name": "Rute Pereira Silva",
+    "name": "Rute Pereira da Silva",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/sanderson-junior.jpeg",
-    "name": "Sanderson Junior",
+    "name": "Sanderson Cezar Augusto Junior",
     "role": "Membro Ativo"
   },
   {
     "imgSrc": "/iniciativa-devops/profiles/theo-evangelista.jpg",
-    "name": "Theo Evangelista",
+    "name": "Théo Evangelista Rodrigues",
     "role": "Membro Ativo"
   }
 ]
