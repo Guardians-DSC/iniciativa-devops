@@ -1,0 +1,32 @@
+---
+import Users from "phosphor-astro/Users.astro";
+import Trophy from "phosphor-astro/Trophy.astro";
+import GraduationCap from "phosphor-astro/GraduationCap.astro";
+import Section from "../../layout/Section.astro";
+import StatsCard from "../../StatsCard.astro";
+---
+
+<Section title="Em nossa última edição...">
+  <div class="flex flex-row flex-wrap justify-around gap-6">
+    <StatsCard>
+      <Users slot="stats-icon" />
+      <p slot="stats-description">43 alunos ingressaram na capacitação</p>
+    </StatsCard>
+    <StatsCard>
+      <Users slot="stats-icon" />
+      <p slot="stats-description">2 formações foram ofertadas, englobando Linux e OpenShift</p>
+    </StatsCard>
+    <StatsCard>
+      <Trophy slot="stats-icon" />
+      <p slot="stats-description">
+        2 alunos conquistaram bolsas em projetos após a capacitação
+      </p>
+    </StatsCard>
+    <StatsCard>
+      <GraduationCap slot="stats-icon" />
+      <p slot="stats-description">
+        5 alunos obtiveram vouchers para certificações pagas da RedHat
+      </p>
+    </StatsCard>
+  </div>
+</Section>
