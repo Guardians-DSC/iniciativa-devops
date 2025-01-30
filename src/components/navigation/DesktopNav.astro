@@ -5,7 +5,7 @@ const { links } = Astro.props as NavigationProps;
 ---
 
 <nav>
-  <ul class="flex list-none gap-3">
+  <ul class="list-none gap-4 hidden md:flex">
     {
       links.map(({ url, label }) => (
         <li class="hover:text-accent-500">

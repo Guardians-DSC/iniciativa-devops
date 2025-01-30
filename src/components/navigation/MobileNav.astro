@@ -4,7 +4,7 @@ import type { NavigationProps } from "./NavLink";
 const { links } = Astro.props as NavigationProps;
 ---
 
-<nav class="fixed top-0 left-0 w-screen h-screen overflow-hidden bg-accent-950">
+<nav class="absolute top-16 left-0 w-screen py-4 overflow-hidden bg-accent-950 block md:hidden">
   <ul class="flex flex-col justify-center items-center h-full list-none gap-3">
     {
       links.map(({ url, label }) => (
@@ -14,7 +14,4 @@ const { links } = Astro.props as NavigationProps;
       ))
     }
   </ul>
-  <button class="absolute top-4 right-4 p-4 rounded-xl active:bg-primary-950">
-    X
-  </button>
 </nav>
