@@ -5,6 +5,7 @@ import MobileNav from "../navigation/MobileNav.astro";
 import type { NavLink } from "../navigation/NavLink";
 
 import List from "phosphor-astro/List.astro"
+import ToggleMobileNav from "../navigation/ToggleMobileNav.astro";
 
 const navigationLinks: NavLink[] = [
   {
@@ -34,7 +35,7 @@ const navigationLinks: NavLink[] = [
       <!-- Navbar -->
       <DesktopNav links={navigationLinks} />
       <MobileNav links={navigationLinks} />
-      <button class="block md:hidden" onclick="toggleNavigation()"><List class="w-8" /></button>
+      <ToggleMobileNav />
     </Fragment>
   </Container>
 </header>

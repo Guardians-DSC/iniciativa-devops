@@ -4,8 +4,13 @@ import type { NavigationProps } from "./NavLink";
 const { links } = Astro.props as NavigationProps;
 ---
 
-<nav class="absolute top-16 left-0 w-screen py-4 overflow-hidden bg-accent-950 block md:hidden">
-  <ul class="flex flex-col justify-center items-center h-full list-none gap-3">
+<nav
+  id="mobile-navigation"
+  class="absolute top-16 left-0 w-screen max-h-0 overflow-hidden bg-accent-950 block md:hidden transition-[max-height] duration-300"
+>
+  <ul
+    class="flex flex-col justify-center items-center h-full list-none gap-3 py-4"
+  >
     {
       links.map(({ url, label }) => (
         <li class="hover:text-accent-500">
